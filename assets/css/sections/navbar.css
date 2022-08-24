@@ -10760,7 +10760,6 @@ textarea.form-control-lg {
 }
 .menu {
   background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
-  max-height: 70px;
 }
 
 li {
@@ -10771,6 +10770,13 @@ li a {
   text-transform: capitalize;
   font-weight: 700;
   font: 1em;
+}
+
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  max-width: 250px;
 }
 
 /*# sourceMappingURL=navbar.css.map */

@@ -10761,9 +10761,14 @@ textarea.form-control-lg {
 .btn-rounded {
   position: relative;
   padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 575.98px) {
+  .btn-rounded {
+    display: none;
+  }
 }
 .btn-rounded span {
   position: absolute;
@@ -10784,10 +10789,28 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
   color: #fff;
 }
+.btn-rounded:hover span {
+  background-color: rgba(46, 9, 95, 0.8);
+}
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+}
+.display-2--description {
+  font-size: 1rem;
+  display: block;
+  color: #fff;
+  margin-top: 1.2rem;
+}
 
 .menu {
   background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
-  max-height: 70px;
 }
 
 li {
@@ -10798,6 +10821,20 @@ li a {
   text-transform: capitalize;
   font-weight: 700;
   font: 1em;
+}
+
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 200px;
+  max-width: 250px;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
