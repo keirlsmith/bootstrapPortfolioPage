@@ -10765,4 +10765,21 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.intros .video-box {
+  position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.intros .video-box a span i {
+  font-size: 6rem;
+  color: #fff;
+}
+.intros .video-box a span i:hover {
+  background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
+}
+
 /*# sourceMappingURL=intro-section.css.map */
