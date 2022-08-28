@@ -14,23 +14,37 @@
         position: relative;
 
         a {
-            @include absoluteCenter;
+            //@include absoluteCenter;
 
             span {
 
                 i {
                     font-size: 6rem;
                     color: $white;
-
-                    &:hover { 
-                        @include gradient;
-        
-                    }
-                    
                 }
                 
             }
             
         }
+    }
+}
+
+
+.border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border: 0.55rem solid $secondary;
+    border-radius: 50%;
+    animation: pulse-border 1s linear infinite;
+
+
+    &--border-1 {
+        animation-delay: 1s;
+    }
+    &--border-2 {
+        animation-delay: 1.5s;
     }
 }

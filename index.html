@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/gallery/css/glightbox.min.css">
+
     
 
     <title>Keir Smith Photography
@@ -73,18 +75,37 @@
                 <div class='col-md-6 intros text-end'>
                     <div class="video-box">
                        <img src="img/arts/proPhoto1.jpg" alt="video illustration" class="img-fluid"> 
-                       <a href="">
+                       <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
                         <span>
                             <i class="fas fa-play-circle"></i>
                         </span>
+                        <span class="border-animation border-animation--border-1"></span>
+                        <span class="border-animation border-animation--border-2"></span>
+
+                        
                        </a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,96L60,90.7C120,85,240,75,360,96C480,117,600,171,720,181.3C840,192,960,160,1080,133.3C1200,107,1320,85,1380,74.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="/assets/gallery/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+    const lightbox = GLightbox({
+        'href': 'https://youtu.be/m1j19sfJwZQ',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true'
+});
+
+    </script>
+    
   </body>
 </body>
 </html>
