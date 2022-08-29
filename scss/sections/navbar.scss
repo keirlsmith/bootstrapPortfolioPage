@@ -13,6 +13,12 @@ li {
         text-transform: capitalize;
         font-weight: 700;
         font: 1em ;
+
+        &:hover {
+            text-decoration: wavy;
+            font-weight: bolder;
+            font-size: larger;
+        }
     }
 }
 

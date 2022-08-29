@@ -10771,6 +10771,11 @@ li a {
   font-weight: 700;
   font: 1em;
 }
+li a:hover {
+  text-decoration: wavy;
+  font-weight: bolder;
+  font-size: larger;
+}
 
 .img-responsive {
   height: auto;
