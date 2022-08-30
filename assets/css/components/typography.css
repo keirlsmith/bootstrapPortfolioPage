@@ -10801,4 +10801,13 @@ textarea.form-control-lg {
   background-color: rgb(46, 9, 95);
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 200%;
+}
+
 /*# sourceMappingURL=typography.css.map */

@@ -10846,6 +10846,15 @@ textarea.form-control-lg {
   background-color: rgb(46, 9, 95);
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 200%;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
 }
@@ -10938,7 +10947,7 @@ li a:hover {
 }
 .social__logo-box:hover {
   filter: grayscale(120);
-  height: 7rem;
+  height: 6rem;
   max-width: 100%;
 }
 
