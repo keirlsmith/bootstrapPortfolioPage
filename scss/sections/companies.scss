@@ -1,4 +1,5 @@
 @use'../custom' as *;
+@use '../components/mixins.scss' as *;
 
 .social {
     padding: 0 0 5rem 0;
@@ -34,3 +35,28 @@
 .social-box {
     margin: 0 auto;
 }
+
+.photography_section {
+    position: relative;
+    padding: 5rem ;
+    @include gradient;
+    background-color: rgba($black, 0.8) ;
+}
+
+.carousel-caption {
+    background-color: rgba($black, 0.8) ;
+    border-radius: 0.625rem;
+
+}
+
+// .carousel-item {
+//     display: block;
+//     width: 300;
+//     height: 500;
+  
+//     @include media-breakpoint-down(md) {
+//         display: block;
+//         width: 200;
+//         height: 300;
+//     }
+// }
