@@ -10760,8 +10760,14 @@ textarea.form-control-lg {
 }
 .photography_section {
   position: relative;
-  padding: 0;
+  padding: 5rem;
   background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.625rem;
 }
 
 /*# sourceMappingURL=photography.css.map */

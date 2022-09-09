@@ -3,6 +3,13 @@
 
 .photography_section {
     position: relative;
-    padding: 0;
+    padding: 5rem ;
     @include gradient;
+    background-color: rgba($black, 0.8) ;
+}
+
+.carousel-caption {
+    background-color: rgba($black, 0.8) ;
+    border-radius: 0.625rem;
+
 }
