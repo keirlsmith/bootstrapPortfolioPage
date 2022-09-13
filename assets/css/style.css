@@ -11032,6 +11032,7 @@ li a:hover {
 .contact-box__icon {
   width: 2rem;
   stroke: #c0c784;
+  padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
   .contact-box__icon {
@@ -11060,6 +11061,19 @@ li a:hover {
 @media (min-width: 1200px) {
   .contact-box__info--subtitle {
     font-size: 1rem;
+  }
+}
+
+.footer-sm a {
+  color: #fff;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 576px) {
+  .footer-sm a i {
+    font-size: 1.6rem;
   }
 }
 
