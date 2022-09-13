@@ -11126,4 +11126,8 @@ textarea.form-control-lg {
   height: 200%;
 }
 
+.gradient {
+  background: linear-gradient(to right, rgba(46, 9, 95, 0.95), rgba(192, 199, 132, 0.95));
+}
+
 /*# sourceMappingURL=typography.css.map */
