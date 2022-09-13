@@ -11827,3 +11827,55 @@ textarea.form-control-lg {
     font-size: 1.6rem;
   }
 }
+
+.portfolio-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.portfolio-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.portfolio-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #000;
+}
+.footer-bottom__copyright {
+  color: #6c757d;
+  font-weight: 400;
+}
+.footer-bottom__copyright a {
+  color: #dee2e6;
+  text-decoration: none;
+}
+.footer-bottom__copyright a:hover {
+  color: #c0c784;
+  text-decoration: underline;
+}
+
+.back-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+}
+.back-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-me {
+  padding: 4rem 0;
+  background-color: #dee2e6;
+}
