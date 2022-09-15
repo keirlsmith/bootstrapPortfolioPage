@@ -11899,3 +11899,16 @@ textarea.form-control-lg {
   margin-right: 0.5rem;
   font-size: 1.2rem;
 }
+
+.form {
+  padding: 3rem;
+}
+.form button {
+  border: none;
+  color: white;
+}
+.form button a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
