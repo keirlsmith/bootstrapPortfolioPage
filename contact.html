@@ -30,19 +30,19 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="bio.html">Bio</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="photography.html">Gallery</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
             </li>
 
         </ul>
@@ -55,81 +55,67 @@
     </div>
     </nav>
 
-    <!-- START THE INTRO SECTION -->
 
-    <section id="home" class="intro-section">
+    <!-- START SECTION - CONTACT  -->
+
+    <section id="contact" class="contact-me">
         <div class="container">
-            <div class="row align-items-center ">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold text-capitalize">Contact Me</h1>
+                <div class="heading-line"></div>
+                <p class="lh-lg">
+                    Please complete this form if you have any questions, or just want to get in contact with me. Thanks!
+                </p>       
+            </div>
 
-                <!-- START THE CONTENT FOR THE INTRO -->
-
-                <div class="col-md-6 intros">
-                    <h1 class="display-2">
-                        <span class="display-2--intro text-white">Hi, I'm Keir!</span>
-                        <span class="display-2--description text-white lh-base">Welcome to my portfolio page! Please take a look around, and enjoy!</span>
-                    </h1>
-                    <button type="button" class="rounded-pill btn-rounded"> Get in Touch
-                        <span>
-                            <i class="fas fa-arrow-right"></i>
-                        </span>
-                    </button>
+            <!-- START THE FORM CONTENT -->
+            <div class="row text-white">
+                <div class="col-12 col-lg-6 gradient shadow p-3">
+                    <div class="contact-info w-100">
+                        <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+                        <p class="lh-lg">Get in contact with me if you want to schedule an interview, book a photo session, or even just to discuss anything you've seen here today!</p>
+                        <h3 class="display-3--brief">What will be the next step?</h3>
+                        <ul class="contact-info__list">
+                            <li>I will receive your contact information.</li>
+                            <li>Return any contact within 2-3 business days!</li>
+                            <li>Take care of business!</li>
+                        </ul>
+                    </div>
                 </div>
-                <!--START THE CONTENT FOR THE VIDEO-->
-                <div class='col-md-6 intros text-end'>
-                    <div class="video-box">
-                       <img src="img/arts/proPhoto1.jpg" alt="video illustration" class="img-fluid"> 
-                       <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-                        <span>
-                            <i class="fas fa-play-circle"></i>
-                        </span>
-                        <span class="border-animation border-animation--border-1"></span>
-                        <span class="border-animation border-animation--border-2"></span>
-
-                        
-                       </a>
+                <div class="col-12 col-lg-6 bg-white shadow p-3">
+                    <div class="form w-100 pb-2 text-center">
+                        <h4 class="display-3--title pt-3 pb-5">
+                            Contact Me
+                        </h4>
+                        <form action="#" class="row">
+                            <div class="col-6 mb-3">
+                                <input type="text" placeholder="First Name" Name="" id="inputFirstName" class=" form-control-lg shadow form-control">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <input type="text" placeholder="Last Name" id="inputLastName" class=" form-control-lg shadow form-control">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" placeholder="Email" id="inputEmail" class=" form-control-lg shadow form-control">
+                            </div>
+                            <div class="mb-3">
+                                <input type="" placeholder="Phone Number" Name="" id="inputEmail" class=" form-control-lg shadow form-control">
+                            </div>
+                            <div class="mb-3">
+                                <textarea name="message" placeholder="Message" id="message" class="shadow form-control form-control-lg " rows="8"></textarea>
+                            </div>
+                            <div class="text-center d-grid mt-1">
+                                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                                    Submit
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L60,90.7C120,85,240,75,360,96C480,117,600,171,720,181.3C840,192,960,160,1080,133.3C1200,107,1320,85,1380,74.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
     </section>
-
-
-
-<!-- START THE SOCIAL SECTION  -->
-
-    <section id="social" class="social">
-        <div class ="container">
-            <div class = "row text-center">
-                <h4 class="fw-bold lead mb-3">Follow Me on Social Media!</h4>
-                <div class="heading-line"></div>
-            </div>
-        </div>
-
-        <!-- START THE SOCIAL MEDIA -->
-
-        <div class="container">
-            <div class="row ">
-                <div class="col-md-2 social-box">
-                    <div class="social__logo-box shadow-sm"><img src="img/social-media/facebook.jpg" alt="Social Media Logo" title="Social Media Logo" class="img-fluid"></div>
-                </div>
-                <div class="col-md-2 social-box">
-                    <div class="social__logo-box shadow-sm"><img src="img/social-media/github.png" alt="Social Media Logo" title="Social Media Logo" class="img-fluid"></div>
-                </div>
-                <div class="col-md-2 social-box">
-                    <div class="social__logo-box shadow-sm"><img src="img/social-media/instagram.png" alt="Social Media Logo" title="Social Media Logo" class="img-fluid"></div>
-                </div>
-                <div class="col-md-2 social-box">
-                    <div class="social__logo-box shadow-sm"><img src="img/social-media/linkedin.png" alt="Social Media Logo" title="Social Media Logo" class="img-fluid"></div>
-                </div>
-                <div class="col-md-2 social-box">
-                    <div class="social__logo-box shadow-sm"><img src="img/social-media/twitter.png" alt="Social Media Logo" title="Social Media Logo" class="img-fluid"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+   
 
     <!-- START SECTION FOR FOOTER -->
 
@@ -245,6 +231,8 @@
                 </div>
             </div>
         </div>
+
+
 
 
         <!-- START THE COPYRIGHT INFO -->
