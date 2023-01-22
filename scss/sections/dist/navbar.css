@@ -11819,5 +11819,6 @@ li a:hover {
 .about_img {
   margin: auto;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
